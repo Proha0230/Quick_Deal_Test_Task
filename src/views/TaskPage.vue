@@ -112,6 +112,11 @@ export default {
 
           &--create {
             @include button(10px 5px);
+
+            &:disabled {
+              background-color: dimgray;
+              color: white;
+            }
           }
           &--cancel {
             @include button(10px 5px);
