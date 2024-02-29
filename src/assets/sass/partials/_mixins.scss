@@ -1,0 +1,29 @@
+@mixin button($margin, $width: 170px, $height:55px) {
+  width: $width;
+  height: $height;
+  border-radius: 30px;
+  border: solid powderblue 2px;
+  background-color: lightgrey;
+  color: black;
+  cursor: pointer;
+  margin: $margin;
+  text-shadow: 1px 1px powderblue;
+}
+
+@mixin text($width, $max-width) {
+  color: black;
+  width: $width;
+  max-width: $max-width;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  background-color: lightgrey;
+  height: 100%;
+  max-height: 230px;
+  padding: 10px;
+  border-radius: 25px;
+  border: solid powderblue 2px;
+  text-shadow: 1px 1px powderblue;
+}
