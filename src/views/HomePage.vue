@@ -85,6 +85,7 @@ export default {
 
     & h3 {
       @include text(100%, 600px);
+      max-height: 255px;
     }
   }
 }
